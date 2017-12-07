@@ -1,5 +1,5 @@
 # Chain Class Example
-class Retail_1:
+class Retail_3:
     """ Retail Class for Revenue Calculation """
     def __init__(self, brand):
          """ Information of each retail e.g., income and cost """
@@ -25,7 +25,7 @@ class Retail_1:
 
 
 # Walmart
-c1 = Retail_1("Walmart")
+c1 = Retail_3("Walmart")
 
 # income of each walmart store
 walmart_income = [100, 120, 90, 115, 85]
