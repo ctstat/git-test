@@ -1,3 +1,2 @@
 # teaching
-teaching repo
-This is for PHA 245: Introduction to Python
+teaching repo: this is for PHA 245: Introduction to Python
