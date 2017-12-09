@@ -1,2 +1,1 @@
-# teaching
-teaching repo: this is for PHA 245: Introduction to Python
+This repo is for practicing and testing only
