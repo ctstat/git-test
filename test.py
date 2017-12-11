@@ -5,7 +5,7 @@ b = [random.gauss(0,1) for i in range(15)]
 
 import matplotlib.pyplot as plt
 plt.plot(x=a, y=b)
-plot.show()
+plt.show()
 
 # print c
 c = [i*j for i, j in zip(a, b)]
