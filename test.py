@@ -10,5 +10,3 @@ def add(x,y):
 def minus(x,y):
     return(x-y)
 
-def pow(x,y):
-    pass
