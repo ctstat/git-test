@@ -8,5 +8,5 @@ def add(x,y):
     return(x+y)
 
 def minus(x,y):
-    pass
+    return(x-y)
 
