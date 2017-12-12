@@ -11,3 +11,5 @@ def minus(x,y):
     return(x-y)
 
 >>>>>>> parent of 249cca1... power
+
+
