@@ -5,12 +5,13 @@ def time(x,y):
 def add(x,y):
     return(x+y)
 
+
 def bfun(x):
     if x%2 == 0:
         return("an even number")
     else:
         return("an odd number")
-    
-print(bfun(4))
 
+def afun(x,y):
+    return(x%y)
 
