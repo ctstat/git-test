@@ -15,3 +15,6 @@ def bfun(x):
 def afun(x,y):
     return(x%y)
 
+def cfun(x):
+    return(x*10)
+    
