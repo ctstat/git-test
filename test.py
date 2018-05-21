@@ -17,3 +17,5 @@ def afun(x,y):
 def cfun(x):
     return(x*10)
 
+def dfun(b):
+    return(b**10)
