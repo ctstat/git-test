@@ -5,5 +5,5 @@ def time(x,y):
 def add(x,y):
     return(x+y)
 
-def afun(x):
-    return(pow(x,3))
+def afun(x,y):
+    return(x%y)
