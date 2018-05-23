@@ -13,9 +13,3 @@ def bfun(x):
         return("an even number")
     else:
         return("an odd number")
-
-def cfun(x):
-    return(x*10)
-
-def dfun(b):
-    return(b**10)
