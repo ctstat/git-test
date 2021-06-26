@@ -30,7 +30,7 @@ def d_loss_w2(b, w1, w2):
 eta = 0.01
 b, w1, w2 = (0, 0.5, 0.5)
 
-for i in range(50000):
+for i in range(3000):
     Loss = loss(b, w1, w2)
     gradient_b = d_loss_b(b, w1, w2)
     gradient_w1 = d_loss_w1(b, w1, w2)
