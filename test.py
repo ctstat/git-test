@@ -1,6 +1,14 @@
 import numpy as np 
+import matplotlib.pyplot as plt   
 
 np.random.seed(12)
 
-nums = np.random.randint(10, 20, size = (3,4))
-print(nums)
+x = list(range(11))
+
+a, b = 0.5, np.pi
+y = np.cos([(a + b*i) for i in x])
+
+plt.scatter(x, y, marker= "+")
+plt.xlabel("X")
+plt.ylabel("Y")
+plt.show()
