@@ -1,21 +1,6 @@
-def time(x,y):
-    """ time function"""
-    return(x*y)
+import numpy as np 
 
-def add(x,y):
-    return(x+y)
+np.random.seed(12)
 
-def afun(x,y):
-    return(x%y)
-
-def bfun(x):
-    if x%2 == 0:
-        return("an even number")
-    else:
-        return("an odd number")
-
-def cfun(x):
-    return(x*10)
-
-def dfun(b):
-    return(b**10)
+nums = np.random.randint(10, 20, size = (3,4))
+print(nums)
