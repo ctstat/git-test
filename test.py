@@ -1,10 +1,7 @@
 import numpy as np 
-import matplotlib.pyplot as plt   
+import torch 
 
-np.random.seed(12)
+np.random.seed(123)
+tensor = torch.tensor(np.random.randint(0, 10, size = 5), dtype = torch.float32)
 
-x = np.random.random(size = 15)
-
-y = 3 + 4.5*np.exp(x)
-print(y)
-
+print(tensor)
